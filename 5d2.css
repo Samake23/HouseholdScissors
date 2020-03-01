@@ -1,0 +1,94 @@
+div.line1 {
+  height: 390px;
+  width: 4px;
+  background-color: #F00;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(115deg);
+  transform-origin: 400px 470px;
+  left: 37px;
+  top: -120px
+}
+
+div.line2 {
+  height: 778px;
+  width: 4px;
+  background-color: #F00;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(10deg);
+  transform-origin: -450px 490px;
+  left: 930px;
+  top: -64px;
+}
+
+
+div.container {
+    height:768px;
+    width: 1024px;
+    background-color: Snow;
+    float:left;
+}
+
+}
+  div.header {
+    height:100px;
+    width:1024px;
+    background-color: Snow;
+  }
+
+  div.first {
+    height: 660px;
+    width: 500px;
+    background-color: Snow;
+    float:left;
+  }
+
+  div.second {
+    height: 660px;
+    width: 500px;
+    background-color: Snow;
+    float:right;
+  }
+
+  .second > p {
+    font-size: 20px;
+    margin-right: 200px;
+    color: black;
+  }
+
+  .first > p {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 100px;
+    color: black;
+  }
+
+  .second > h1 {
+    font-size: 40px;
+    color: salmon;
+  }
+
+  .first > h1 {
+    font-size: 40px;
+    color: salmon;
+    margin-left: 20px;
+  }
+
+  div.link1 {
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    z-index: 7;
+    left: 950px;
+    top: 750px
+  }
+
+  div.link2 {
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    z-index: 9;
+    left: 30px;
+    top: 750px;
+  }

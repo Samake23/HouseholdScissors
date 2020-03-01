@@ -1,0 +1,80 @@
+
+
+  div.line1 {
+    height: 437px;
+    width: 4px;
+    background-color: #F00;
+    position: absolute;
+    z-index: 5;
+    transform: rotate(-102deg);
+    transform-origin: 600px -10px;
+    left: -130px;
+    top: 201px;
+}
+
+div.line2 {
+  height: 767px;
+  width: 4px;
+  background-color: #F00;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(1deg);
+  transform-origin: 400px 600px;
+  left: 1015px;
+  top: 16px;
+}
+
+
+div.main {
+  background-color: Snow;
+  height: 768px;
+  width: 1024px;
+  float:left;
+}
+div.header {
+  height:100px;
+  width:1024px;
+  background-color: Snow;
+}
+div.box1 {
+  width: 482px;
+  height: 314px;
+  background-color: Snow;
+  float:left;
+  margin-left: 20px;
+}
+div.box2 {
+  width: 482px;
+  height: 314px;
+  background-color: Snow;
+  float:right;
+  margin-right: 20px;
+}
+div.leftSide {
+  width: 482px;
+  height: 300px;
+  background-color: Snow;
+  float:left;
+  margin-left: 20px;
+}
+div.rightSide {
+  width: 482px;
+  height: 314px;
+  background-color: Snow;
+  float:right;
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  color: salmon;
+}
+
+div.link {
+  height: 40px;
+  width: 80px;
+  position: absolute;
+  z-index: 7;
+  left: 950px;
+  top: 750px
+}
